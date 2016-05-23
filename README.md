@@ -1,5 +1,8 @@
 Process Monitor Debug Logger
 ============================
+[![Build Status](https://travis-ci.org/mfcollins3/go-procmon.svg?branch=master)](https://travis-ci.org/mfcollins3/go-procmon)
+[![Build status](https://ci.appveyor.com/api/projects/status/68svi8eg64gehc42/branch/master?svg=true)](https://ci.appveyor.com/project/mfcollins3/go-procmon/branch/master)
+
 This project implements support for Go programs to write debug messages
 to [Process Monitor](https://technet.microsoft.com/en-us/Library/bb896645.aspx)'s
 log when running on a Microsoft Windows computer or
