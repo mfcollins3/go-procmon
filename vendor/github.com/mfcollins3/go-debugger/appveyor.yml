@@ -1,0 +1,11 @@
+version: '0.1.0+{build}'
+clone_folder: c:\projects\src\github.com\mfcollins3\go-debugger
+environment:
+  GOPATH: c:\projects
+
+build_script:
+  - go build -v github.com/mfcollins3/go-debugger
+
+test_script:
+  - go test -v github.com/mfcollins3/go-debugger
+  
